@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="split">
+        <P>SIPLI</P>
+        <P>TTER</P>
+    </div>
+    <div class="container-main">
+
+        <div class="container-left">
+            <div class="container-left-content">
+
+                <div class="bill-content">
+                    <p class="bill-bill">Bill</p>
+                    <!--   <img src="images/images/icon-dollar.svg">-->
+                    <input id="cost" class="bill-btn bill-icon-dollar" placeholder="142.55">
+                </div>
+
+                <div class="select-tip">
+                    <p class="select-tip-percent">Select tip %</p>
+                    <button class="tip-percent-button" data-value="5" type="number">5%</button>
+                    <button class="tip-percent-button" data-value="10" type="number">10%</button>
+                    <button class="tip-percent-button" data-value="15" type="number">15%</button>
+                    <button class="tip-percent-button" data-value="25" type="number">25%</button>
+                    <button class="tip-percent-button" data-value="50" type="number">50%</button>
+                    <button class="tip-percent-button custom-button" type="number"><span class="custom">Custom</span>
+                    </button>
+
+                </div>
+
+                <div class="number-of-people">
+                    <p class="number-of-people">Number of people</p>
+                    <!--<img src="images/images/icon-person.svg">-->
+                    <input class="number-of-people-btn bill-icon-user" placeholder="5">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-right">
+            <div class="container-right-content">
+
+                <div class="tip-amount">
+                    <p>Tip Amount</p>
+                    <p id="tip-amount" class="tip-amount-btn"></p>
+                </div>
+
+                <div class="total">
+                    <p>Total</p>
+                    <button class="tip-amount-btn">$32.79</button>
+                </div>
+                <button class="reset">RESET</button>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--<div class="container-right">
+    <div class="tip-amount">
+        <p>Tip Amount</p>
+
+        <button class="tip-amount-btn">$4.27</button>
+    </div>
+    <div class="total">
+        <p>Total</p>
+        <button class="tip-amount-btn">$32.79</button>
+    </div>
+    <button class="reset">RESET</button>
+</div>-->
+
+
+<script src="app.js"></script>
+</body>
+</html>

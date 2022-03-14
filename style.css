@@ -1,0 +1,176 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #C5E4E7;
+}
+
+.container {
+  margin: 50px 0;
+}
+
+.container-main {
+    margin: 0 auto;
+    width: 600px;
+    padding: 32px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 33px;
+}
+
+.container-left {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.container-right-content {
+    background-color: #00474B;
+    border-radius: 20px;
+}
+
+
+.bill-content {
+    text-align: justify;
+}
+
+.bill-bill {
+    font-size: 16px;
+    text-align: left;
+    color: #5E7A7D;
+    font-weight: bold;
+}
+
+.bill-btn {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    text-align: right;
+    background-color: #F3F9FA;
+    border: none;
+    line-height: 2;
+    border-radius: 5px;
+}
+
+
+.select-tip {
+    color: #5E7A7D;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.number-of-people {
+    color: #5E7A7D;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.tip-percent-button {
+    width: 90px;
+    height: 36px;
+    padding:5px;
+    margin:3px 3px 0 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    background-color: #00474B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.tip-amount {
+    color: #FFFFFF;
+    padding: 40px 40px 25px 40px;
+    display: flex;
+
+}
+
+.total {
+    color: #FFFFFF;
+    margin: 0 40px 40px 40px;
+}
+
+.number {
+    color: #26C2AE;
+}
+
+.reset {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+    background-color: #26C2AE;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+
+}
+
+.tip-amount-btn {
+    background-color: #00474B;
+    border: none;
+    color: #26C2AE;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    text-align: right;
+
+}
+
+.total {
+    display: flex;
+}
+
+.number-of-people-btn {
+    background-color: #F3F9FA;
+    border: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    text-align: right;
+    line-height: 2;
+    border-radius: 5px;
+
+}
+
+
+.custom-button {
+    background-color: #F3F9FA;
+    color: #547878;
+    font-size: 20px;
+}
+
+.split{
+   text-align: center;
+    color: #5E7A7D;
+}
+
+
+.bill-icon-dollar {
+    background-image: url("images/images/icon-dollar.svg");
+    background-repeat: no-repeat;
+    background-position: 11px 17px;
+}
+
+.bill-icon-user{
+    background-image: url("images/images/icon-person.svg");
+    background-repeat: no-repeat;
+    background-position: 11px 17px;
+}
+
+@media only screen and (max-width: 966px) {
+    .container-main {
+      display: block;
+        width: 300px;
+    }
+
+    .container-right {
+        margin-top: 20px;
+    }
+}
